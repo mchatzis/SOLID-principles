@@ -1,4 +1,5 @@
 import java.util.AbstractMap;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 
@@ -16,8 +17,14 @@ public class Reporter implements IReporter{
                 activityMap.put(message.senderId, 0);
             }
         }
-        
-        return null;
+
+        Collection<UserActivity> activityMetric = new ArrayList<>();
+
+        for(String key : activityMap.keySet()){
+            activityMetric.add(new UserActivity(key, activityMap.get(key)));
+        }
+
+        return new Report(activityMetric);
     }
 
 }
