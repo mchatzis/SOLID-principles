@@ -13,6 +13,9 @@ public class Parser implements IParser{
             for(int i = 3; i < split.length; i++) {
                 split[2] = split[2] + " " + split[i];
             }
+            Character c = '1';
+            //Character c = split[0].charAt(0);
+            int i = Character.digit(c,10);
             parsedConversation.add(new Message(Instant.ofEpochSecond(Long.parseUnsignedLong(split[0])), split[1], split[2]));
         }
         return parsedConversation;
