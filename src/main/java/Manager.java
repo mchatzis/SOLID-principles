@@ -2,23 +2,21 @@ import java.util.Collection;
 
 public class Manager {
 
-    public Manager (IReader reader, IParser parser, IProcessor processor, IExporter exporter){
-        this.reader = reader;
-        this.parser = parser;
+    public Manager (IImporter importer, IProcessor processor, IExporter exporter){
+        this.importer = importer;
         this.processor = processor;
         this.exporter = exporter;
     }
 
     public void doBusiness() throws Exception{
-        Collection<String> lines = reader.read();
-        Collection<Message> messages = parser.parse(lines);
+
+        Collection<Message> messages = importer.importData();
         Product product = processor.process(messages);
         exporter.export(product);
 
     }
 
-    private IReader reader;
-    private IParser parser;
+    private IImporter importer;
     private IProcessor processor;
     private IExporter exporter;
 }
