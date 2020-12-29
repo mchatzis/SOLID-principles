@@ -65,5 +65,29 @@
       "senderId": "angus",
       "content": "Guys, please `````"
     }
-  ]
+  ],
+  "report": {
+    "userActivityMetric": [
+      {
+        "user": "eggs",
+        "messageFrequency": 1
+      },
+      {
+        "user": "angus",
+        "messageFrequency": 2
+      },
+      {
+        "user": "bob",
+        "messageFrequency": 3
+      },
+      {
+        "user": "mike",
+        "messageFrequency": 2
+      },
+      {
+        "user": "spam",
+        "messageFrequency": 0
+      }
+    ]
+  }
 }

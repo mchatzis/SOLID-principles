@@ -12,7 +12,7 @@ public class Program {
                 new FiltererByKeyword(null)
         };
         IFilterer filterer = new Filterer(filtererBys);
-        IReporter reporter = new Reporter(false);
+        IReporter reporter = new Reporter(true);
         IProcessor processor = new Processor(filterer,reporter);
 
         IConverter<Product,String> converter = new ProductToJsonConverter();
