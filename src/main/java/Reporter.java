@@ -5,7 +5,21 @@ import java.util.HashMap;
 
 public class Reporter implements IReporter{
 
+    public Reporter (Boolean createReport){
+        this.createReport = createReport;
+    }
+
     public Report generateReport(Collection<Message> conversation) {
+
+        if (createReport){
+            return makeReport(conversation);
+        }
+        else{
+            return null;
+        }
+    }
+
+    private Report makeReport(Collection<Message> conversation){
 
         AbstractMap<String,Integer> activityMap = new HashMap<String,Integer> ();
 
@@ -26,5 +40,7 @@ public class Reporter implements IReporter{
 
         return new Report(activityMetric);
     }
+
+    private Boolean createReport;
 
 }
