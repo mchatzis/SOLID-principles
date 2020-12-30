@@ -28,7 +28,7 @@ public class Reporter implements IReporter{
                 activityMap.put(message.senderId, activityMap.get(message.senderId) + 1);
             }
             else{
-                activityMap.put(message.senderId, 0);
+                activityMap.put(message.senderId, 1);
             }
         }
 

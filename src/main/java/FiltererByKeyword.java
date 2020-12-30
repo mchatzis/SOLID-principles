@@ -7,7 +7,7 @@ public class FiltererByKeyword implements IFiltererBy{
         this.keyword = keyword;
     }
 
-    public void filterBy(Collection<Message> conversation) {
+    public Collection<Message> filterBy(Collection<Message> conversation) {
 
         Collection<Message> helperConversation = new ArrayList<>();
 
@@ -17,9 +17,11 @@ public class FiltererByKeyword implements IFiltererBy{
                     helperConversation.add(message);
                 }
             }
-            conversation = helperConversation;
+            return helperConversation;
         }
-
+        else{
+            return conversation;
+        }
     }
 
     private String keyword;

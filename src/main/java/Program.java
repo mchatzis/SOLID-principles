@@ -8,15 +8,15 @@ public class Program {
         IImporter importer = new Importer(reader,parser);
 
         IFiltererBy[] filtererBys = new IFiltererBy[] {
-                new FiltererByUser(null),
-                new FiltererByKeyword(null)
+                new FiltererByUser("bob"),
+                new FiltererByKeyword("pie")
         };
         IFilterer filterer = new Filterer(filtererBys);
-        IReporter reporter = new Reporter(true);
+        IReporter reporter = new Reporter(false);
         IProcessor processor = new Processor(filterer,reporter);
 
         IConverter<Product,String> converter = new ProductToJsonConverter();
-        IWriter writer = new TextFileWriter("out.txt");
+        IWriter writer = new TextFileWriter("out.json");
         IExporter exporter = new Exporter(converter,writer);
 
         Manager manager = new Manager(importer, processor, exporter);

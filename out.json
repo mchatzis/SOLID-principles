@@ -1,0 +1,14 @@
+{
+  "filteredConversation": [
+    {
+      "timestamp": 1448470906,
+      "senderId": "bob",
+      "content": "I'm good thanks, do you like pie?"
+    },
+    {
+      "timestamp": 1448470914,
+      "senderId": "bob",
+      "content": "No, just want to know if there's anybody else in the pie society..."
+    }
+  ]
+}

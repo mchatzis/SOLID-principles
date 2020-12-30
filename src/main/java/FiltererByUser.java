@@ -7,7 +7,7 @@ public class FiltererByUser implements IFiltererBy {
         this.user = user;
     }
 
-    public void filterBy(Collection<Message> conversation) {
+    public Collection<Message> filterBy(Collection<Message> conversation) {
 
         Collection<Message> helperConversation = new ArrayList<>();
 
@@ -17,7 +17,10 @@ public class FiltererByUser implements IFiltererBy {
                     helperConversation.add(message);
                 }
             }
-            conversation = helperConversation;
+            return helperConversation;
+        }
+        else{
+            return conversation;
         }
 
     }
