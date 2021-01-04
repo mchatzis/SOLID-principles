@@ -21,7 +21,7 @@ Therefore, I have been writing unit tests for this project, although testing was
 This program is a very simple text file processor. 
 It reads from a text file, it processes the information and it outputs the product of processing into another output file.
 
-*Reading from a text file*
+### Reading from a text file ###
 
 The program reads from a '.txt' file. The text to be read has to have a specific format, which represents a conversation of people in a chat application.
 The format follows:
@@ -30,5 +30,10 @@ The format follows:
 representing...
 
 (timestamp of message) (sender) (message sent)
+
+### Processing
+
+### Exporting end product
+
 
 
