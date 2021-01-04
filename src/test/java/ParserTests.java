@@ -8,7 +8,7 @@ import java.util.Collection;
 public class ParserTests {
 
     @Test
-    void testParse(){
+    void Parsing_Simple_Message(){
         Collection<String> rawConversation = new ArrayList<>();
         rawConversation.add("1448470901 bob Hello there!");
 
@@ -22,5 +22,5 @@ public class ParserTests {
         Boolean areEqual = actualParsedConversation.equals(expectedParsedConversation);
         Assertions.assertTrue(areEqual);
     }
-    
+
 }

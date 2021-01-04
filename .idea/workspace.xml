@@ -47,7 +47,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnitTests.testParse">
+  <component name="RunManager" selected="JUnit.UnitTests">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="chat" />
@@ -96,9 +96,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnitTests" />
         <item itemvalue="JUnit.UnitTests.testParse" />
         <item itemvalue="JUnit.UnitTests.secondTest" />
-        <item itemvalue="JUnit.UnitTests" />
         <item itemvalue="JUnit.UnitTests.firstTest" />
         <item itemvalue="Application.Program" />
       </list>
