@@ -18,5 +18,5 @@ public class Parser implements IParser{
         }
         return parsedConversation;
     }
-    
+
 }
