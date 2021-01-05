@@ -5,7 +5,7 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class ParserTests {
+public class Parser_UnitTests {
 
     @Test
     void Parsing_Simple_Message(){
