@@ -47,7 +47,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Reporter_UnitTests">
+  <component name="RunManager" selected="JUnit.ProductToJsonConverter_UnitTests">
     <configuration name="FiltererByKeyword_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
@@ -61,6 +61,15 @@
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FiltererByUser_UnitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductToJsonConverter_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductToJsonConverter_UnitTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,23 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTests.testParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chat" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests" />
-      <option name="METHOD_NAME" value="testParse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductToJsonConverter_UnitTests" />
         <item itemvalue="JUnit.Reporter_UnitTests" />
         <item itemvalue="JUnit.FiltererByKeyword_UnitTests" />
         <item itemvalue="JUnit.FiltererByUser_UnitTests" />
         <item itemvalue="JUnit.UnitTests" />
-        <item itemvalue="JUnit.UnitTests.testParse" />
       </list>
     </recent_temporary>
   </component>
