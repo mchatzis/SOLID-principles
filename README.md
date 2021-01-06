@@ -32,7 +32,11 @@ representing...
 
 (timestamp of message) (sender) (message sent)
 
+NB: Successive conversation messages should be split by newlines '\n' in the input text file
+
 ### Processing
+
+
 
 ### Exporting end product
 
