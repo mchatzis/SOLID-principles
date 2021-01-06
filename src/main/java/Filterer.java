@@ -10,7 +10,7 @@ public class Filterer implements IFilterer {
         Collection<Message> filteredConversation = conversation;
 
         for(IFiltererBy filtererBy : this.filtererBys){
-            filteredConversation = filtererBy.filterBy(filteredConversation);
+            filteredConversation =  filtererBy.filterBy(filteredConversation);
         }
         return filteredConversation;
     }

@@ -12,12 +12,9 @@ public class TextFileWriter implements IWriter{
         {
             bw.write(text);
         }
-        catch (FileNotFoundException e) {
+        catch (Exception e) {
             e.printStackTrace();
-            throw new IllegalArgumentException("The output file was not found.");
-        } catch (IOException e) {
-            e.printStackTrace();
-            throw new Exception("Output file was found, but writing to it failed.");
+            throw new IOException("Writing to file operation failed");
         }
     }
 

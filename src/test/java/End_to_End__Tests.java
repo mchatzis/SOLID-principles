@@ -16,7 +16,7 @@ import java.util.Collection;
 
 import static org.mockito.Mockito.*;
 
-public class UnitTests {
+public class End_to_End__Tests {
 
     @Test
     void firstTest() throws Exception{

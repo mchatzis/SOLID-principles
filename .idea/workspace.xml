@@ -48,6 +48,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ProductToJsonConverter_UnitTests">
+    <configuration name="End_to_End__Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="End_to_End__Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FiltererByKeyword_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,22 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chat" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ProductToJsonConverter_UnitTests" />
         <item itemvalue="JUnit.Reporter_UnitTests" />
         <item itemvalue="JUnit.FiltererByKeyword_UnitTests" />
         <item itemvalue="JUnit.FiltererByUser_UnitTests" />
-        <item itemvalue="JUnit.UnitTests" />
+        <item itemvalue="JUnit.End_to_End__Tests" />
       </list>
     </recent_temporary>
   </component>
