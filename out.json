@@ -10,5 +10,29 @@
       "senderId": "bob",
       "content": "No, just want to know if there's anybody else in the pie society..."
     }
-  ]
+  ],
+  "report": {
+    "userActivityMetric": [
+      {
+        "user": "eggs",
+        "messageFrequency": 2
+      },
+      {
+        "user": "angus",
+        "messageFrequency": 3
+      },
+      {
+        "user": "bob",
+        "messageFrequency": 4
+      },
+      {
+        "user": "mike",
+        "messageFrequency": 3
+      },
+      {
+        "user": "spam",
+        "messageFrequency": 1
+      }
+    ]
+  }
 }
