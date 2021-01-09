@@ -40,23 +40,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductToJsonConverter_UnitTests">
-    <configuration name="End_to_End__Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="chat" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="End_to_End__Tests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Filterer_UnitTests">
     <configuration name="FiltererByKeyword_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
@@ -70,6 +61,15 @@
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FiltererByUser_UnitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Filterer_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Filterer_UnitTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Filterer_UnitTests" />
         <item itemvalue="JUnit.ProductToJsonConverter_UnitTests" />
         <item itemvalue="JUnit.Reporter_UnitTests" />
         <item itemvalue="JUnit.FiltererByKeyword_UnitTests" />
         <item itemvalue="JUnit.FiltererByUser_UnitTests" />
-        <item itemvalue="JUnit.End_to_End__Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -123,5 +123,9 @@
         <PinnedItemInfo parentTag="FiltererByUser" memberName="user" />
       </pinned-members>
     </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
