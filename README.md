@@ -11,7 +11,7 @@ This github repository is the archive of the end result.
 
 ## Next Project and why this project is still being updated
 My next project is going to be focusing on Test Driven Development. 
-However, an intermediate milestone before beginning that is to improve my unit testing skills, including the **Mockito** library.
+However, an intermediate milestone before beginning that is to improve my *unit testing* skills, including the *Mockito* library.
 
 Therefore, although testing was outside the scope of my initial plan for this project, I have been writing unit tests for this project.
 Due to this fact, one may notice that this project is still being updated (with tests). 
