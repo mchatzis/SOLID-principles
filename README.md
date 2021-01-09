@@ -27,11 +27,11 @@ It reads from an input text file, it processes the information and it outputs th
 The program reads from a '.txt' file. The text to be read has to have a specific format, which represents a conversation of people in a chat application.
 The format follows:
 
-(10 digit number) (non-empty sequence of characters) (non-empty sequence of characters)
+`(10 digit number) (non-empty sequence of characters) (non-empty sequence of characters)`
 
 representing...
 
-(timestamp of message) (sender) (message sent)
+`(timestamp of message) (sender) (message sent)`
 
 NB: Successive conversation messages should be split by newlines '\n' in the input text file
 
