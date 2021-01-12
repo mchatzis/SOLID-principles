@@ -67,9 +67,9 @@ This project is pretty self-explanatory. The code has very carefully chosen name
 There are 4 levels of abstraction. Modules belonging to different levels of abstraction are decoupled using interfaces. The "Program" class is just the driver of the structure and hence the lowest level module.
 
 
-In this ![diagram](https://github.com/mchatzis/OOP-chat-application/blob/main/IMG_20210112_124829.jpg), the hierarchical structure can be clearly seen without the driver class "Program" included. Please notice that this is not a UML diagram which should include the interfaces and follow the arrow conventions.
+In the first class hierarchical structure ![Class hierarchical structure](https://github.com/mchatzis/OOP-chat-application/blob/main/IMG_20210112_124829.jpg), the driver class "Program" is omitted. Please notice that this is not a UML diagram which should include the interfaces and follow the arrow conventions.
 
-In the second ![diagram](https://github.com/mchatzis/OOP-chat-application/blob/main/IMG_20210112_125056.jpg), the "Program" is included.
+In the second class hierarchical structure ![class hierarchical structure](https://github.com/mchatzis/OOP-chat-application/blob/main/IMG_20210112_125056.jpg), the "Program" is included.
 
 Flow of control is linear. First importing, then processing then exporting. Importing first reads, then parses. Processing first filters then generates report. Exporting first converts to JSON, then writes to file.
 
