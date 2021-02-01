@@ -1,20 +1,22 @@
 # A chat processor
 
 ## Motivation
-This project was part of my plan of self-learning software design that implements the S.O.L.I.D. design principles.
+This project was part of my plan to self-learn the S.O.L.I.D. software design principles.
 
-My plan was to carry out the following processes in parallel:
-  - Theory: Read through Robert C. Martin's (Uncle Bob's) books on Clean Architecture and Software Craftsmanship
+More specifically, my plan was to carry out the following processes in parallel:
+  - Theory: 
+    1.  Read Robert C. Martin's book on software architecture, namely [*Clean Architecture*](https://www.amazon.co.uk/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/ref=sr_1_1?adgrpid=53377145455&dchild=1&gclid=Cj0KCQiA6t6ABhDMARIsAONIYyxEKL_bDmj6XcwQF9G-OylsBlsI0pNmzGZVQf8I8xmJPKA3d2YJJYcaAjl2EALw_wcB&hvadid=259082764023&hvdev=c&hvlocphy=9045886&hvnetw=g&hvqmt=e&hvrand=12756985132615978575&hvtargid=kwd-312356124160&hydadcr=17642_1817802&keywords=clean+architecture+robert+c+martin&qid=1612182480&sr=8-1&tag=googhydr-21)
+    2.  Also read parts of Garry McLean Hall's book on SOLID principles in C#, namely [*Adaptive Code via C#: Agile coding with design patterns and SOLID principles](https://www.amazon.co.uk/Adaptive-Code-via-patterns-principles/dp/0735683204)
   - Practice: Implement concepts learnt from theory in my OOP-chat application
 
-This github repository is the archive of the end result.
+This github repository contains the product of my learning, a chat application that follows the SOLID principles.
 
 ## Next Project and why this project is still being updated
 My next project is going to be focusing on Test Driven Development. 
 However, an intermediate milestone before beginning that is to improve my *Unit testing* skills, including the *Mockito* library.
 
 Therefore, although testing was outside the scope of my initial plan for this project, I have been writing unit tests for this project.
-Due to this fact, one may notice that this project is still being updated (with tests). 
+Due to this fact, one may notice that this project is still being updated (with tests). However, test coverage is still pretty low.
 
 ## Documentation
 ### What the program is and does
