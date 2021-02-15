@@ -68,9 +68,9 @@ This project is pretty self-explanatory. The code has very carefully chosen name
 
 There are 4 levels of abstraction. Modules belonging to different levels of abstraction are decoupled using interfaces. The "Program" class is just the driver of the structure and hence the lowest level module.
 
-In the first class hierarchical structure ![Class hierarchical structure](https://github.com/mchatzis/OOP-chat-application/blob/main/IMG_20210112_124829.jpg), the driver class "Program" is omitted. Please notice that this is not a UML diagram which should include the interfaces and follow the arrow conventions. 
+In the first class-hierarchy structure ![Class hierarchical structure](https://github.com/mchatzis/OOP-chat-application/blob/main/IMG_20210112_124829.jpg), the driver class "Program" is omitted. Please notice that this is not a UML diagram which should include the interfaces and follow the arrow conventions. 
 
-In the second class hierarchical structure ![class hierarchical structure](https://github.com/mchatzis/OOP-chat-application/blob/main/IMG_20210112_125056.jpg), the "Program" is included.
+In the second class-hierarchy structure ![class hierarchical structure](https://github.com/mchatzis/OOP-chat-application/blob/main/IMG_20210112_125056.jpg), the "Program" is included.
 
 In both diagrams, one can imagine AN INTERFACE BETWEEN ANY TWO MODULES, which is used to decouple the different levels of hierarchy, as already said.
 
