@@ -55,14 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
-      <module name="chat" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Reporter_UnitTests">
     <configuration name="FiltererByKeyword_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,10 +65,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Filterer_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FiltererByUser_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Filterer_UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="FiltererByUser_UnitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parser_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Parser_UnitTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,10 +103,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Program" />
-        <item itemvalue="JUnit.Filterer_UnitTests" />
-        <item itemvalue="JUnit.ProductToJsonConverter_UnitTests" />
         <item itemvalue="JUnit.Reporter_UnitTests" />
+        <item itemvalue="JUnit.ProductToJsonConverter_UnitTests" />
+        <item itemvalue="JUnit.Parser_UnitTests" />
+        <item itemvalue="JUnit.FiltererByUser_UnitTests" />
         <item itemvalue="JUnit.FiltererByKeyword_UnitTests" />
       </list>
     </recent_temporary>
