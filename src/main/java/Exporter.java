@@ -6,8 +6,8 @@ public class Exporter implements IExporter{
     }
 
     public void export(Product product) throws Exception {
-        String convertedProcessedConversation = converter.convert(product);
-        writer.write(convertedProcessedConversation);
+        String jsonConvertedProduct = converter.convert(product);
+        writer.write(jsonConvertedProduct);
     }
 
     private IConverter<Product,String> converter;
