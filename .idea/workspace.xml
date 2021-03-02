@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../OralChess" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OralChess/app/src/main/java/com/example/oralchess/RetroClient.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -56,17 +56,21 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProgramServerVersion">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
+  <component name="RunManager" selected="JUnit.Reporter_UnitTests">
+    <configuration name="FiltererByKeyword_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FiltererByKeyword_UnitTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgramServerVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProgramServerVersion" />
+    <configuration name="FiltererByUser_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FiltererByUser_UnitTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProgramServerVersion" />
-        <item itemvalue="Application.Program" />
         <item itemvalue="JUnit.Reporter_UnitTests" />
         <item itemvalue="JUnit.ProductToJsonConverter_UnitTests" />
         <item itemvalue="JUnit.Parser_UnitTests" />
+        <item itemvalue="JUnit.FiltererByUser_UnitTests" />
+        <item itemvalue="JUnit.FiltererByKeyword_UnitTests" />
       </list>
     </recent_temporary>
   </component>
