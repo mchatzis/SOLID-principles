@@ -9,15 +9,15 @@ public class FiltererByUser implements IFiltererBy {
 
     public Collection<Message> filterBy(Collection<Message> conversation) {
 
-        Collection<Message> helperConversation = new ArrayList<>();
+        Collection<Message> filteredConversation = new ArrayList<>();
 
         if (this.user != null) {
             for (Message message : conversation) {
                 if (message.senderId.equals(user)){
-                    helperConversation.add(message);
+                    filteredConversation.add(message);
                 }
             }
-            return helperConversation;
+            return filteredConversation;
         }
         else{
             return conversation;

@@ -1,6 +1,6 @@
 public class Program {
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
 
         //First initialize the structure
         IReader reader = new TextReader ("chat.txt");
@@ -11,6 +11,7 @@ public class Program {
                 new FiltererByUser("bob"),
                 new FiltererByKeyword("pie")
         };
+
         IFilterer filterer = new Filterer(filtererBys);
         IReporter reporter = new Reporter(true);
         IProcessor processor = new Processor(filterer,reporter);

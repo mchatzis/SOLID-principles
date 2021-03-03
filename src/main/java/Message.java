@@ -28,7 +28,7 @@ public class Message {
         if (!this.content.equals(that.content)){return false;}
         if (!this.senderId.equals(that.senderId)){return false;}
         if (this.timestamp.compareTo(that.timestamp) != 0){return false;}
-
+        
         return true;
     }
 

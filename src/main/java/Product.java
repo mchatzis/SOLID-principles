@@ -8,21 +8,21 @@ public class Product {
     };
 
     @Override
-    public boolean equals (Object y){
+    public boolean equals (Object o){
 
-        if (y == this){
+        if (o == this){
             return true;
         }
 
-        if(y == null){
+        if(o == null){
             return false;
         }
 
-        if(y.getClass() != this.getClass()){
+        if(o.getClass() != this.getClass()){
             return false;
         }
 
-        Product that = (Product) y;
+        Product that = (Product) o;
 
         if (!this.report.equals(that.report)){return false;}
         if (!this.filteredConversation.equals(that.filteredConversation)){return false;}

@@ -9,15 +9,15 @@ public class FiltererByKeyword implements IFiltererBy{
 
     public Collection<Message> filterBy(Collection<Message> conversation) {
 
-        Collection<Message> helperConversation = new ArrayList<>();
+        Collection<Message> filteredConversation = new ArrayList<>();
 
         if (this.keyword != null) {
             for (Message message : conversation) {
                 if (message.content.contains(keyword)){
-                    helperConversation.add(message);
+                    filteredConversation.add(message);
                 }
             }
-            return helperConversation;
+            return filteredConversation;
         }
         else{
             return conversation;

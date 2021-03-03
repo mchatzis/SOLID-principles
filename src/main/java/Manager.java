@@ -8,11 +8,16 @@ public class Manager {
         this.exporter = exporter;
     }
 
-    public void doBusiness() throws Exception{
+    public void doBusiness(){
 
-        Collection<Message> messages = importer.importData();
-        Product product = processor.process(messages);
-        exporter.export(product);
+        try {
+            Collection<Message> importedConversation = importer.importData();
+            Product product = processor.process(importedConversation);
+            exporter.export(product);
+        }
+        catch (Exception e){
+            System.out.println(e.toString());
+        }
 
     }
 
