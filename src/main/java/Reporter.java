@@ -11,17 +11,17 @@ public class Reporter implements IReporter{
 
     public Report generateReport(Collection<Message> conversation) {
 
-        if (createReport){
-            return makeReport(conversation);
-        }
+        if (!createReport){ return null; }
+
         else{
-            return null;
+            Collection<UserActivity> userActivityMetric = makeActivityMetric(conversation);
+            return new Report(userActivityMetric);
         }
     }
 
-    private Report makeReport(Collection<Message> conversation){
+    private Collection<UserActivity> makeActivityMetric(Collection<Message> conversation){
 
-        AbstractMap<String,Integer> activityMap = new HashMap<String,Integer> ();
+        HashMap<String,Integer> activityMap = new HashMap<String,Integer> ();
 
         for (Message message : conversation){
             if(activityMap.containsKey(message.senderId)){
@@ -38,9 +38,10 @@ public class Reporter implements IReporter{
             activityMetric.add(new UserActivity(key, activityMap.get(key)));
         }
 
-        return new Report(activityMetric);
+        return activityMetric;
     }
 
+    //variables
     private Boolean createReport;
 
 }
