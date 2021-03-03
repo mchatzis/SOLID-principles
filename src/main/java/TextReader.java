@@ -21,8 +21,7 @@ public class TextReader implements IReader{
             }
         }
         catch (Exception e){
-            e.printStackTrace();
-            throw new Exception("Reading operation failed miserably.");
+            throw new Exception("Reading operation from file failed.");
         }
         return rawConversation;
     }

@@ -1,6 +1,6 @@
 public class Exporter implements IExporter{
 
-    public Exporter (IConverter<Product,String> converter, IWriter writer){
+    public Exporter (IConverter converter, IWriter writer){
         this.converter = converter;
         this.writer = writer;
     }
@@ -10,6 +10,7 @@ public class Exporter implements IExporter{
         writer.write(convertedProcessedConversation);
     }
 
-    private IConverter<Product,String> converter;
+    private IConverter converter;
     private IWriter writer;
+
 }

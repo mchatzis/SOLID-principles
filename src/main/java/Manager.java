@@ -16,6 +16,7 @@ public class Manager {
             exporter.export(product);
         }
         catch (Exception e){
+            e.printStackTrace();
             System.out.println(e.toString());
         }
 

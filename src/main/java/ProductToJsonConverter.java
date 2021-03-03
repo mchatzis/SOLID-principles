@@ -3,7 +3,7 @@ import java.time.Instant;
 
 import com.google.gson.*;
 
-public class ProductToJsonConverter implements IConverter<Product,String>{
+public class ProductToJsonConverter implements IConverter{
 
     public String convert(Product product) {
 

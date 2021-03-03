@@ -13,7 +13,6 @@ public class TextFileWriter implements IWriter{
             bw.write(text);
         }
         catch (Exception e) {
-            e.printStackTrace();
             throw new IOException("Writing to file operation failed");
         }
     }

@@ -3,12 +3,12 @@
     {
       "timestamp": 1448470906,
       "senderId": "bob",
-      "content": "I'm good thanks, do you like pie?"
+      "content": "I'm good thanks, do you like combustion engine cars?"
     },
     {
       "timestamp": 1448470914,
       "senderId": "bob",
-      "content": "No, just want to know if there's anybody else in the pie society..."
+      "content": "Are you crazy? I'm not a banker... maybe I'll end up buying a bike anyways."
     }
   ],
   "report": {
@@ -19,7 +19,7 @@
       },
       {
         "user": "angus",
-        "messageFrequency": 3
+        "messageFrequency": 4
       },
       {
         "user": "bob",

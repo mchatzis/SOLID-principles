@@ -48,62 +48,71 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Filterer_UnitTests">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
+  <component name="RunManager" selected="JUnit.Reporter_UnitTests.Reporter_SimpleCase">
+    <configuration name="FiltererByKeyword_UnitTests.FilteringByKeyword_SimpleCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FiltererByKeyword_UnitTests" />
+      <option name="METHOD_NAME" value="FilteringByKeyword_SimpleCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scripting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scripting" />
+    <configuration name="FiltererByUser_UnitTests.FilteringByUser_SimpleCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FiltererByUser_UnitTests" />
+      <option name="METHOD_NAME" value="FilteringByUser_SimpleCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Filterer_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Filterer_UnitTests.FilterByUserAndKeyword_SimpleCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Filterer_UnitTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="FilterByUserAndKeyword_SimpleCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductToJsonConverter_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductToJsonConverter_UnitTests.ConvertProductToJson_SimpleCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ProductToJsonConverter_UnitTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="ConvertProductToJson_SimpleCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reporter_UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Reporter_UnitTests.Reporter_SimpleCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chat" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Reporter_UnitTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="Reporter_SimpleCase" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Filterer_UnitTests" />
-        <item itemvalue="Application.Scripting" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="JUnit.Reporter_UnitTests" />
-        <item itemvalue="JUnit.ProductToJsonConverter_UnitTests" />
+        <item itemvalue="JUnit.Reporter_UnitTests.Reporter_SimpleCase" />
+        <item itemvalue="JUnit.ProductToJsonConverter_UnitTests.ConvertProductToJson_SimpleCase" />
+        <item itemvalue="JUnit.FiltererByKeyword_UnitTests.FilteringByKeyword_SimpleCase" />
+        <item itemvalue="JUnit.FiltererByUser_UnitTests.FilteringByUser_SimpleCase" />
+        <item itemvalue="JUnit.Filterer_UnitTests.FilterByUserAndKeyword_SimpleCase" />
       </list>
     </recent_temporary>
   </component>

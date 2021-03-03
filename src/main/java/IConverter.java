@@ -1,4 +1,5 @@
-public interface IConverter<A,B> {
+public interface IConverter {
 
-    B convert(A object);
+    String convert(Product product);
+
 }

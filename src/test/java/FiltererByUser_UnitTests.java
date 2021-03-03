@@ -14,15 +14,12 @@ public class FiltererByUser_UnitTests {
         conversation.add(new Message(Instant.ofEpochSecond(1448470901),"bob", "Hello there!"));
         conversation.add(new Message(Instant.ofEpochSecond(1448470905),"mike", "What up bob?"));
 
-        //Then create the expected output conversation
+        //Then create the expected output conversation when filtering by user:"bob"
         Collection<Message> expectedFilteredConversation = new ArrayList<>();
         expectedFilteredConversation.add(new Message(Instant.ofEpochSecond(1448470901),"bob", "Hello there!"));
 
-        //Create the input filter (filter by username "bob")
+        //Run the function under test to get actual output
         IFiltererBy filtererByUserBob = new FiltererByUser("bob");
-
-
-        //Run the function under test using inputs and store actual output
         Collection<Message> actualFilteredConversation = filtererByUserBob.filterBy(conversation);
 
         //Check if actual == expected
