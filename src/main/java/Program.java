@@ -5,7 +5,7 @@ public class Program {
         //First initialize the structure...
 
         //Initialize importer (composed of a reader and a parser)
-        IReader reader = new TextReader ("hat.txt");
+        IReader reader = new TextReader ("chat.txt");
         IParser parser = new Parser();
         IImporter importer = new Importer(reader,parser);
 
