@@ -9,14 +9,7 @@ More specifically, my plan was to carry out the following processes in parallel:
     2.  Also read parts of Garry McLean Hall's book on SOLID principles in C#, namely [*Adaptive Code via C#: Agile coding with design patterns and SOLID principles](https://www.amazon.co.uk/Adaptive-Code-via-patterns-principles/dp/0735683204)
   - Practice: Implement concepts learnt from theory in my OOP-chat application
 
-This github repository contains the product of my learning, a chat application that follows the SOLID principles.
-
-## Next Project and why this project is still being updated
-My next project is going to be focusing on Test Driven Development. 
-However, an intermediate milestone before beginning that is to improve my *Unit testing* skills, including the *Mockito* library.
-
-Therefore, although testing was outside the scope of my initial plan for this project, I have been writing unit tests for this project.
-Due to this fact, one may notice that this project is still being updated (with tests). However, test coverage is still pretty low.
+This github repository contains the product of my learning, a chat application that follows the SOLID principles
 
 ## Documentation
 ### What the program is and does
